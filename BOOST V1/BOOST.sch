@@ -1,0 +1,532 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BOOST UNIT"
+Date ""
+Rev ""
+Comp ""
+Comment1 "Designed by Yuta"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tact_switch:XL6019 XL1
+U 1 1 5C2A398F
+P 4975 3150
+F 0 "XL1" H 4925 3275 60  0000 L CNN
+F 1 "XL6019" H 4800 3175 60  0000 L CNN
+F 2 "module:TO263-5L" H 4975 3150 60  0001 C CNN
+F 3 "" H 4975 3150 60  0001 C CNN
+	1    4975 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5C2A3B0A
+P 3950 2300
+F 0 "J1" V 3916 2112 50  0000 R CNN
+F 1 "INPUT" V 3825 2112 50  0000 R CNN
+F 2 "module:3Pads" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5C2A3BDA
+P 4275 3550
+F 0 "C2" H 4367 3596 50  0000 L CNN
+F 1 "100n" H 4367 3505 50  0000 L CNN
+F 2 "module:1005" H 4275 3550 50  0001 C CNN
+F 3 "~" H 4275 3550 50  0001 C CNN
+	1    4275 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5C2A3D7F
+P 3950 3500
+F 0 "C1" H 4050 3475 50  0000 L CNN
+F 1 "100u" H 4000 3400 50  0000 L CNN
+F 2 "module:TANTALCAP-6032" H 3950 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5C2A3E84
+P 5575 3350
+F 0 "R2" H 5634 3396 50  0000 L CNN
+F 1 "470R" H 5634 3305 50  0000 L CNN
+F 2 "module:1005" H 5575 3350 50  0001 C CNN
+F 3 "~" H 5575 3350 50  0001 C CNN
+	1    5575 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5C2A3EE9
+P 5575 3000
+F 0 "R1" H 5634 3046 50  0000 L CNN
+F 1 "2K" H 5634 2955 50  0000 L CNN
+F 2 "module:1005" H 5575 3000 50  0001 C CNN
+F 3 "~" H 5575 3000 50  0001 C CNN
+	1    5575 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV1
+U 1 1 5C2A42B0
+P 5575 2750
+F 0 "RV1" H 5525 2775 50  0000 R CNN
+F 1 "20K" H 5525 2700 50  0000 R CNN
+F 2 "module:CONN_01x03" H 5575 2750 50  0001 C CNN
+F 3 "~" H 5575 2750 50  0001 C CNN
+	1    5575 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5C2A443B
+P 5275 2600
+F 0 "D1" H 5275 2525 50  0000 C CNN
+F 1 "D_Small" H 5325 2675 50  0000 C CNN
+F 2 "module:DO-214AC" V 5275 2600 50  0001 C CNN
+F 3 "~" V 5275 2600 50  0001 C CNN
+	1    5275 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5C2A44C7
+P 4525 2600
+F 0 "L1" V 4475 2600 50  0000 C CNN
+F 1 "L" V 4575 2600 50  0000 C CNN
+F 2 "module:Inductor_10x10x3.8" H 4525 2600 50  0001 C CNN
+F 3 "~" H 4525 2600 50  0001 C CNN
+	1    4525 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5C2A4794
+P 6050 3150
+F 0 "C3" H 6142 3196 50  0000 L CNN
+F 1 "100n" H 6142 3105 50  0000 L CNN
+F 2 "module:1005" H 6050 3150 50  0001 C CNN
+F 3 "~" H 6050 3150 50  0001 C CNN
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C2A49CD
+P 6600 3100
+F 0 "J2" H 6679 3092 50  0000 L CNN
+F 1 "CAPACITOR" H 6425 2900 50  0000 L CNN
+F 2 "module:2Pads" H 6600 3100 50  0001 C CNN
+F 3 "~" H 6600 3100 50  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5C2A4B1C
+P 7375 2750
+F 0 "J3" H 7454 2742 50  0000 L CNN
+F 1 "SOLENOID" H 7454 2651 50  0000 L CNN
+F 2 "module:Molex_2pin_angled" H 7375 2750 50  0001 C CNN
+F 3 "~" H 7375 2750 50  0001 C CNN
+	1    7375 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5C2A4C92
+P 7075 3100
+F 0 "Q1" H 7280 3146 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 7280 3055 50  0000 L CNN
+F 2 "module:TO-252" H 7275 3200 50  0001 C CNN
+F 3 "~" H 7075 3100 50  0001 C CNN
+	1    7075 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5C2A4E62
+P 7000 3300
+F 0 "R3" V 6950 3300 50  0000 C CNN
+F 1 "1K" V 7000 3300 50  0000 C CNN
+F 2 "module:1005" H 7000 3300 50  0001 C CNN
+F 3 "~" H 7000 3300 50  0001 C CNN
+	1    7000 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7175 2850 7175 2900
+Wire Wire Line
+	7175 3300 7175 3700
+Wire Wire Line
+	7175 3700 6400 3700
+Wire Wire Line
+	3950 3700 3950 3650
+Wire Wire Line
+	4275 3650 4275 3700
+Connection ~ 4275 3700
+Wire Wire Line
+	4275 3700 3950 3700
+Wire Wire Line
+	4775 3650 4775 3700
+Connection ~ 4775 3700
+Wire Wire Line
+	4775 3700 4275 3700
+Wire Wire Line
+	6050 3250 6050 3700
+Connection ~ 6050 3700
+Wire Wire Line
+	6050 3700 5575 3700
+Wire Wire Line
+	6400 3200 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3700 6050 3700
+Wire Wire Line
+	5575 3450 5575 3700
+Connection ~ 5575 3700
+Wire Wire Line
+	5575 3700 4775 3700
+Wire Wire Line
+	5375 2600 5725 2600
+Wire Wire Line
+	7175 2600 7175 2750
+Wire Wire Line
+	5725 2750 5725 2600
+Connection ~ 5725 2600
+Wire Wire Line
+	5725 2600 6050 2600
+Wire Wire Line
+	6050 3050 6050 2600
+Connection ~ 6050 2600
+Wire Wire Line
+	6050 2600 6400 2600
+Wire Wire Line
+	4275 3450 4275 3150
+Wire Wire Line
+	4275 3150 4375 3150
+Wire Wire Line
+	3950 3350 3950 3150
+Wire Wire Line
+	3950 3150 4275 3150
+Connection ~ 4275 3150
+Wire Wire Line
+	4375 2600 3950 2600
+Wire Wire Line
+	3950 2600 3950 3150
+Connection ~ 3950 3150
+Wire Wire Line
+	6400 3100 6400 2600
+Connection ~ 6400 2600
+Wire Wire Line
+	6400 2600 7175 2600
+Wire Wire Line
+	7100 3300 7175 3300
+Connection ~ 7175 3300
+Wire Wire Line
+	6875 3100 6875 3300
+Wire Wire Line
+	6875 3300 6900 3300
+Wire Wire Line
+	6875 3100 6875 2500
+Wire Wire Line
+	6875 2500 4050 2500
+Connection ~ 6875 3100
+Wire Wire Line
+	3950 2500 3950 2600
+Connection ~ 3950 2600
+Wire Wire Line
+	3850 3700 3950 3700
+Connection ~ 3950 3700
+Wire Wire Line
+	3850 2500 3850 3700
+$Comp
+L tact_switch:XL6019 XL2
+U 1 1 5C2B0C00
+P 4975 4800
+F 0 "XL2" H 4925 4925 60  0000 L CNN
+F 1 "XL6019" H 4800 4825 60  0000 L CNN
+F 2 "module:TO263-5L" H 4975 4800 60  0001 C CNN
+F 3 "" H 4975 4800 60  0001 C CNN
+	1    4975 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5C2B0C07
+P 3950 3950
+F 0 "J4" V 3916 3762 50  0000 R CNN
+F 1 "INPUT" V 3825 3762 50  0000 R CNN
+F 2 "module:3Pads" H 3950 3950 50  0001 C CNN
+F 3 "~" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5C2B0C0E
+P 4275 5200
+F 0 "C5" H 4367 5246 50  0000 L CNN
+F 1 "100n" H 4367 5155 50  0000 L CNN
+F 2 "module:1005" H 4275 5200 50  0001 C CNN
+F 3 "~" H 4275 5200 50  0001 C CNN
+	1    4275 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5C2B0C15
+P 3950 5150
+F 0 "C4" H 4050 5125 50  0000 L CNN
+F 1 "100u" H 4000 5050 50  0000 L CNN
+F 2 "module:TANTALCAP-6032" H 3950 5150 50  0001 C CNN
+F 3 "~" H 3950 5150 50  0001 C CNN
+	1    3950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5C2B0C1C
+P 5575 5000
+F 0 "R5" H 5634 5046 50  0000 L CNN
+F 1 "470R" H 5634 4955 50  0000 L CNN
+F 2 "module:1005" H 5575 5000 50  0001 C CNN
+F 3 "~" H 5575 5000 50  0001 C CNN
+	1    5575 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5C2B0C23
+P 5575 4650
+F 0 "R4" H 5634 4696 50  0000 L CNN
+F 1 "2K" H 5634 4605 50  0000 L CNN
+F 2 "module:1005" H 5575 4650 50  0001 C CNN
+F 3 "~" H 5575 4650 50  0001 C CNN
+	1    5575 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV2
+U 1 1 5C2B0C2A
+P 5575 4400
+F 0 "RV2" H 5525 4425 50  0000 R CNN
+F 1 "20K" H 5525 4350 50  0000 R CNN
+F 2 "module:CONN_01x03" H 5575 4400 50  0001 C CNN
+F 3 "~" H 5575 4400 50  0001 C CNN
+	1    5575 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5C2B0C31
+P 5275 4250
+F 0 "D2" H 5275 4175 50  0000 C CNN
+F 1 "D_Small" H 5325 4325 50  0000 C CNN
+F 2 "module:DO-214AC" V 5275 4250 50  0001 C CNN
+F 3 "~" V 5275 4250 50  0001 C CNN
+	1    5275 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5C2B0C38
+P 4525 4250
+F 0 "L2" V 4475 4250 50  0000 C CNN
+F 1 "L" V 4575 4250 50  0000 C CNN
+F 2 "module:Inductor_10x10x3.8" H 4525 4250 50  0001 C CNN
+F 3 "~" H 4525 4250 50  0001 C CNN
+	1    4525 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5C2B0C3F
+P 6050 4800
+F 0 "C6" H 6142 4846 50  0000 L CNN
+F 1 "100n" H 6142 4755 50  0000 L CNN
+F 2 "module:1005" H 6050 4800 50  0001 C CNN
+F 3 "~" H 6050 4800 50  0001 C CNN
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5C2B0C46
+P 6600 4750
+F 0 "J5" H 6679 4742 50  0000 L CNN
+F 1 "CAPACITOR" H 6425 4550 50  0000 L CNN
+F 2 "module:2Pads" H 6600 4750 50  0001 C CNN
+F 3 "~" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5C2B0C4D
+P 7375 4400
+F 0 "J6" H 7454 4392 50  0000 L CNN
+F 1 "SOLENOID" H 7454 4301 50  0000 L CNN
+F 2 "module:Molex_2pin_angled" H 7375 4400 50  0001 C CNN
+F 3 "~" H 7375 4400 50  0001 C CNN
+	1    7375 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5C2B0C54
+P 7075 4750
+F 0 "Q2" H 7280 4796 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 7280 4705 50  0000 L CNN
+F 2 "module:TO-252" H 7275 4850 50  0001 C CNN
+F 3 "~" H 7075 4750 50  0001 C CNN
+	1    7075 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5C2B0C5B
+P 7000 4950
+F 0 "R6" V 6950 4950 50  0000 C CNN
+F 1 "1K" V 7000 4950 50  0000 C CNN
+F 2 "module:1005" H 7000 4950 50  0001 C CNN
+F 3 "~" H 7000 4950 50  0001 C CNN
+	1    7000 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7175 4500 7175 4550
+Wire Wire Line
+	7175 4950 7175 5350
+Wire Wire Line
+	7175 5350 6400 5350
+Wire Wire Line
+	3950 5350 3950 5300
+Wire Wire Line
+	4275 5300 4275 5350
+Connection ~ 4275 5350
+Wire Wire Line
+	4275 5350 3950 5350
+Wire Wire Line
+	4775 5300 4775 5350
+Connection ~ 4775 5350
+Wire Wire Line
+	4775 5350 4275 5350
+Wire Wire Line
+	6050 4900 6050 5350
+Connection ~ 6050 5350
+Wire Wire Line
+	6050 5350 5575 5350
+Wire Wire Line
+	6400 4850 6400 5350
+Connection ~ 6400 5350
+Wire Wire Line
+	6400 5350 6050 5350
+Wire Wire Line
+	5575 5100 5575 5350
+Connection ~ 5575 5350
+Wire Wire Line
+	5575 5350 4775 5350
+Wire Wire Line
+	5375 4250 5725 4250
+Wire Wire Line
+	7175 4250 7175 4400
+Wire Wire Line
+	5725 4400 5725 4250
+Connection ~ 5725 4250
+Wire Wire Line
+	5725 4250 6050 4250
+Wire Wire Line
+	6050 4700 6050 4250
+Connection ~ 6050 4250
+Wire Wire Line
+	6050 4250 6400 4250
+Wire Wire Line
+	4275 5100 4275 4800
+Wire Wire Line
+	4275 4800 4375 4800
+Wire Wire Line
+	3950 5000 3950 4800
+Wire Wire Line
+	3950 4800 4275 4800
+Connection ~ 4275 4800
+Wire Wire Line
+	4375 4250 3950 4250
+Wire Wire Line
+	3950 4250 3950 4800
+Connection ~ 3950 4800
+Wire Wire Line
+	6400 4750 6400 4250
+Connection ~ 6400 4250
+Wire Wire Line
+	6400 4250 7175 4250
+Wire Wire Line
+	7100 4950 7175 4950
+Connection ~ 7175 4950
+Wire Wire Line
+	6875 4750 6875 4950
+Wire Wire Line
+	6875 4950 6900 4950
+Wire Wire Line
+	6875 4750 6875 4150
+Wire Wire Line
+	6875 4150 4050 4150
+Connection ~ 6875 4750
+Wire Wire Line
+	3950 4150 3950 4250
+Connection ~ 3950 4250
+Wire Wire Line
+	3850 5350 3950 5350
+Connection ~ 3950 5350
+Wire Wire Line
+	3850 4150 3850 5350
+Text Label 7175 3700 2    50   ~ 0
+GND
+Text Label 7175 5350 2    50   ~ 0
+GND
+$Comp
+L power:GND #PWR0105
+U 1 1 5D9DE28F
+P 7175 3700
+F 0 "#PWR0105" H 7175 3450 50  0001 C CNN
+F 1 "GND" H 7180 3527 50  0000 C CNN
+F 2 "" H 7175 3700 50  0001 C CNN
+F 3 "" H 7175 3700 50  0001 C CNN
+	1    7175 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7175 3700
+$Comp
+L power:GND #PWR0106
+U 1 1 5D9DE399
+P 7175 5350
+F 0 "#PWR0106" H 7175 5100 50  0001 C CNN
+F 1 "GND" H 7180 5177 50  0000 C CNN
+F 2 "" H 7175 5350 50  0001 C CNN
+F 3 "" H 7175 5350 50  0001 C CNN
+	1    7175 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7175 5350
+Wire Wire Line
+	5575 3100 5575 3250
+Wire Wire Line
+	4675 2600 5175 2600
+Wire Wire Line
+	5575 4750 5575 4900
+Wire Wire Line
+	4675 4250 5175 4250
+$EndSCHEMATC
